@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi portfolio DAW</title>
+
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f6f0ea;
+color: #493b36;
+}
+
+header {
+padding: 25px 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #dccfc4;
+}
+
+header h2 {
+margin: 0;
+letter-spacing: 2px;
+}
+
+header p {
+color: #a27c75;
+}
+
+main {
+width: 80%;
+max-width: 1000px;
+margin: auto;
+}
+
+.inicio {
+padding: 65px 0 45px;
+}
+
+.etiqueta {
+color: #a27c75;
+letter-spacing: 2px;
+font-size: 13px;
+}
+
+h1 {
+font-size: 42px;
+line-height: 1.2;
+}
+
+.rosa {
+color: #a27c75;
+}
+
+.descripcion {
+color: #77665e;
+line-height: 1.7;
+}
+
+.sobre-mi {
+background-color: white;
+padding: 25px;
+border-radius: 15px;
+margin-bottom: 45px;
+}
+
+h2 {
+margin-top: 0;
+}
+
+.proyectos {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 25px;
+}
+
+.tarjeta {
+background-color: white;
+padding: 20px;
+border-radius: 15px;
+flex: 1;
+min-width: 220px;
+box-sizing: border-box;
+border: 1px solid #eee3db;
+}
+
+.icono {
+background-color: #e8d7d1;
+padding: 18px;
+border-radius: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+.numero {
+color: #a27c75;
+font-size: 12px;
+margin-top: 20px;
+}
+
+.tarjeta p {
+color: #77665e;
+}
+
+.boton {
+display: inline-block;
+background-color: #493b36;
+color: white;
+text-decoration: none;
+padding: 12px 18px;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.boton:hover {
+background-color: #a27c75;
+}
+
+footer {
+text-align: center;
+padding: 35px 10px;
+color: #806c61;
+font-size: 13px;
+margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+header {
+padding: 20px;
+}
+
+main {
+width: 88%;
+}
+
+h1 {
+font-size: 32px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>AR. portfolio</h2>
+<p>DAW · 2026</p>
+</header>
+
+<main>
+
+<section class="inicio">
+<p class="etiqueta">BIENVENIDO/A A MI ESPACIO DIGITAL</p>
+
+<h1>
+Aprendiendo hoy.<br>
+<span class="rosa">Creando mañana.</span>
+</h1>
+
+<p class="descripcion">
+Mi recorrido por el Desarrollo de Aplicaciones Web.
+</p>
+</section>
+
+<section class="sobre-mi">
+<p class="etiqueta">01 — SOBRE MÍ</p>
+<h2>Mi camino en DAW</h2>
+
+<p class="descripcion">
+Este es mi espacio personal donde reúno mis
+actividades, prácticas y proyectos realizados
+durante mis estudios de Desarrollo de Aplicaciones Web.
+</p>
+</section>
+
+<section>
+<p class="etiqueta">02 — MI TRABAJO</p>
+<h2>Mis proyectos</h2>
+
+<p class="descripcion">
+Aquí puedes encontrar algunas de mis actividades de clase.
+</p>
+
+<div class="proyectos">
+
+<div class="tarjeta">
+<div class="icono"> &lt;/&gt; </div>
+
+<p class="numero">PROYECTO 01</p>
+<h3>Actividad 1</h3>
+<p>Mis primeros ejercicios de programación web.</p>
+
+<a class="boton"
+href="https://andreeairene005.github.io/sample_code/">
+Ver proyecto →
+</a>
+</div>
+
+<div class="tarjeta">
+<div class="icono">✿</div>
+
+<p class="numero">PROYECTO 02</p>
+<h3>Actividad 2</h3>
+<p>Mis siguientes prácticas de clase.</p>
+
+<a class="boton"
+href="https://github.com/andreeairene005">
+Ver proyecto →
+</a>
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>Hecho con dedicación · Portfolio DAW 2026</p>
+</footer>
+
+</body>
+</html>
